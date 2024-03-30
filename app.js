@@ -14,10 +14,9 @@ const render = (parentElement, data) => {
                     img.src = employee[prop]
                     td.append(img)
                 }
-                if (prop == 'contacts') {
-                    const obj = employee[prop]
+                if (prop == 'contacts') {                   
                     ul = document.createElement('ul')
-                    for (const [key,value] of Object.entries(obj)) {
+                    for (const [key,value] of Object.entries(employee[prop])) {
                         li = document.createElement('li')
                         a = document.createElement('a')
                         li.innerHTML += `${key}: ` 
