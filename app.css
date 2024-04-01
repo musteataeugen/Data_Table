@@ -33,3 +33,6 @@ a:hover {
 a {
     color: aqua;
 }
+li {
+    padding: 10px;
+}
