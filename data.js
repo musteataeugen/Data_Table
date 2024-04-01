@@ -2,6 +2,17 @@ const data = {
     // HW1a: add contacts to each employee
     //      using a plain object {}
     //      phone:...,email:....,viber:...etc.
+
+    fields : [
+        "Full Name",
+        "Picture",
+        "Job Title",
+        "Experience (years)",
+        "Salary (USD)",
+        "Contacts"
+    ],
+
+
     employees: [
         {
         name:"John Doe",
@@ -10,7 +21,7 @@ const data = {
         experience: 10, 
         salary: 110_000,
         contacts: {
-            phone : +44756382465,
+            phone : '+44756382465',
             email : 'johnyDoe@yahoo.com',
             web_site : 'devTools.co.uk'
         }},
@@ -21,7 +32,7 @@ const data = {
         experience: 9, 
         salary: 100_000,
         contacts: {
-            phone : +33586731249,
+            phone : '+33586731249',
             viber : 'Marry Tester',
             whatsApp : 'Briliant'
         }},
@@ -32,7 +43,7 @@ const data = {
         experience: 15, 
         salary: 150_000,
         contacts: {
-            viber : +40158627438,
+            viber : '+40158627438',
             telegram : 'MagicPete',
             web_site : 'Cringe_dev_pro.github.io'
         }}

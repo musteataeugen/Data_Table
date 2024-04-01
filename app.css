@@ -5,8 +5,17 @@ body {
     margin: 20px;
 }
 
-table, td {
+table, td, th {
     border: 1px solid #444;
+}
+
+th {
+    background-color: #555;
+    padding: 10px;
+}
+
+input {
+    padding: 10px;
 }
 
 table td {
@@ -19,6 +28,8 @@ table img {
 
 a:hover {
     color: blue;
-    cursor: pointer;
-    
+    cursor: pointer;    
+}
+a {
+    color: aqua;
 }
